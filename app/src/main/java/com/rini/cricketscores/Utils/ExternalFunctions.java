@@ -18,7 +18,7 @@ public class ExternalFunctions {
 
     public HttpURLConnection getConnectionFromUrl(String urlString) throws Exception
     {
-        String APIKey = "OxotZc86TJexD2YJFyaKTaUZ3oN2";
+        String APIKey = "";
         URL url = new URL(urlString);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("POST");
